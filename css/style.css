@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background: #E5E5E5;
 }
 .container {
     margin: 0px 165px;
@@ -141,4 +142,39 @@ body {
 }
 .header-button:hover {
     background-color: #ac4d00;
+}
+/* ---cards--------------------------- */
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    margin-top: -45px;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding: 0px 10px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px; 
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+}
+.card-title span {
+    color: #BC9060;
+    padding: 0px 0px 0px 5px;
+}
+.card-desc {
+    text-align: center;
+    color: #656363;
 }
