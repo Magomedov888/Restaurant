@@ -103,4 +103,42 @@ body {
 .header-subtitle {
     font-size: 80px;
     padding: 10px;
+    margin-bottom: 12px;
+}
+.header-suptitle {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 138%;
+}
+.header-suptitle::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #C4C4C4;
+    right: 100px;
+    top: 160px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #C4C4C4;
+    left: 100px;
+    top: 160px;
+}
+.header-button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FF7400;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 28px;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+.header-button:hover {
+    background-color: #ac4d00;
 }
