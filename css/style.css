@@ -157,7 +157,7 @@ body {
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 26px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 .card-image {
     display: flex;
@@ -177,4 +177,31 @@ body {
 .card-desc {
     text-align: center;
     color: #656363;
+}
+/* ----history------------------------------------- */
+.history {
+    margin-top: 166px;
+}
+.history-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 114%;
+    color: #000000;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 220px;
+}
+.history-title span {
+    color: #D67E34;
+}
+.history-desc {
+    color: #656363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 137.5%;
+    width: 444px;
+    text-align: center;
+    margin-left: 166px;
 }
