@@ -223,3 +223,27 @@ body {
     color: #000000;
     font-size: 20px;
 }
+.history-images {
+    position: relative;
+}
+.history-holder {
+    display: flex;
+}
+.images-1 {
+    position: absolute;
+    z-index: 10;
+    top: 54px;
+    left: 211px;
+}
+.images-2 {
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+    left: 383px;
+}
+.images-3 {
+    position: absolute;
+    z-index: 30;
+    top: 240px;
+    left: 481px;
+}
