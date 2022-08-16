@@ -254,8 +254,6 @@ body {
     background-image: url(../img/logo/black-bg.jpg);
     padding: 80px 165px;
 }
-.left {
-}
 .left-title {
     color: #D67E34;
     font-family: 'Tinos', serif;
@@ -269,10 +267,6 @@ body {
     font-size: 24px;
     font-weight: 700px;
     line-height: 33px;
-}
-.right {
-}
-.right-button {
 }
 .right-btn {
     background-color: #FF7400;
@@ -291,4 +285,36 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/* ---dishes---------------------------------------------- */
+.dishes { 
+}
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+.dishes-title span {
+    color: #D67E34;
+}
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.burgers-image {
+    margin-right: 20px;
+}
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    margin-left: 26px;
 }
