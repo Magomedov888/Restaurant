@@ -287,8 +287,6 @@ body {
     align-items: center;
 }
 /* ---dishes---------------------------------------------- */
-.dishes { 
-}
 .dishes-title {
     font-family: 'Tinos', serif;
     font-size: 54px;
@@ -350,8 +348,6 @@ body {
 .menu-image {
     position: relative;
 }
-.menu-img {
-}
 .menu-text {
     font-family: 'Tinos', serif;
     font-size: 26px;
@@ -389,4 +385,40 @@ body {
     color: #FFFFFF;
     font-size: 30px;
     font-family: 'Cookie', cursive;
+}
+.item-recommended {
+    margin-top: -80px;
+    padding-bottom: 44px;
+    width: 33%;
+}
+.reccomended {
+    font-size: 13px;
+    background-color: #D67E34;
+    padding: 7px 11px;
+}
+/* ----comment--------------------------------------- */
+.comment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+.comment-text {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.comment-image {
+    text-align: center;
+}
+.comment-type {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.comment-name {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
