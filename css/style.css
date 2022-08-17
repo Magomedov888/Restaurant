@@ -446,3 +446,21 @@ body {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+/* ----cook------------------------------------------ */
+.cook-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cook-title span {
+    color: #D67E34;
+}
+.cook-content {
+    display: flex;
+    justify-content: center;
+}
+.cook-img {
+    margin-right: 20px;
+}
