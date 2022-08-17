@@ -460,7 +460,15 @@ body {
 .cook-content {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .cook-img {
     margin-right: 20px;
+}
+/* ----footer------------------------------------------- */
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0px;
 }
